@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T14:13:04 IST" name="Suite" finished-at="2022-03-20T14:15:13 IST" duration-ms="129078">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T14:13:04 IST" name="Sanity" finished-at="2022-03-20T14:15:13 IST" duration-ms="129078">
+      <class name="com.trainermanagement.scripts.TestClass">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:04 IST" name="onSetup" finished-at="2022-03-20T14:13:19 IST" duration-ms="15454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="homepage()[pri:1, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:19 IST" name="homepage" finished-at="2022-03-20T14:13:26 IST" duration-ms="7302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:26 IST" name="tearDown" finished-at="2022-03-20T14:13:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepage status=SUCCESS method=TestClass.homepage()[pri:1, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="footer()[pri:2, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:26 IST" name="footer" finished-at="2022-03-20T14:13:31 IST" duration-ms="4764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footer -->
+        <test-method signature="InvalidAdminLogin()[pri:3, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:31 IST" name="InvalidAdminLogin" finished-at="2022-03-20T14:13:52 IST" duration-ms="20767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidAdminLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:31 IST" name="tearDown" finished-at="2022-03-20T14:13:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=footer status=SUCCESS method=TestClass.footer()[pri:2, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:52 IST" name="tearDown" finished-at="2022-03-20T14:13:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAdminLogin status=SUCCESS method=TestClass.InvalidAdminLogin()[pri:3, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InvalidLogin()[pri:4, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:13:52 IST" name="InvalidLogin" finished-at="2022-03-20T14:14:10 IST" duration-ms="18010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="verifyValidLogin()[pri:5, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:10 IST" name="verifyValidLogin" finished-at="2022-03-20T14:14:20 IST" duration-ms="10178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:10 IST" name="tearDown" finished-at="2022-03-20T14:14:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=TestClass.InvalidLogin()[pri:4, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:20 IST" name="tearDown" finished-at="2022-03-20T14:14:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TestClass.verifyValidLogin()[pri:5, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="editprofile()[pri:6, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:20 IST" name="editprofile" finished-at="2022-03-20T14:14:23 IST" duration-ms="2927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editprofile -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:23 IST" name="tearDown" finished-at="2022-03-20T14:14:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editprofile status=SUCCESS method=TestClass.editprofile()[pri:6, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyValidAdminLogin()[pri:7, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:23 IST" name="verifyValidAdminLogin" finished-at="2022-03-20T14:14:32 IST" duration-ms="8838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidAdminLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:32 IST" name="tearDown" finished-at="2022-03-20T14:14:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidAdminLogin status=SUCCESS method=TestClass.verifyValidAdminLogin()[pri:7, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyAllocatePage()[pri:8, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:32 IST" name="verifyAllocatePage" finished-at="2022-03-20T14:14:45 IST" duration-ms="12709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllocatePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:45 IST" name="tearDown" finished-at="2022-03-20T14:14:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllocatePage status=SUCCESS method=TestClass.verifyAllocatePage()[pri:8, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="varifyInvalidSignup()[pri:9, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:14:45 IST" name="varifyInvalidSignup" finished-at="2022-03-20T14:15:02 IST" duration-ms="17537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyInvalidSignup -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:15:02 IST" name="tearDown" finished-at="2022-03-20T14:15:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyInvalidSignup status=SUCCESS method=TestClass.varifyInvalidSignup()[pri:9, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="signup()[pri:10, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:15:02 IST" name="signup" finished-at="2022-03-20T14:15:13 IST" duration-ms="10488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.trainermanagement.scripts.TestClass@6a2b953e]" started-at="2022-03-20T14:15:13 IST" name="tearDown" finished-at="2022-03-20T14:15:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signup status=SUCCESS method=TestClass.signup()[pri:10, instance:com.trainermanagement.scripts.TestClass@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trainermanagement.scripts.TestClass -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Suite -->
+</testng-results>

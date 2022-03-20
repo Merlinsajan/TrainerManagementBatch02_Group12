@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="15" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="15" parallel="tests" name="Sanity(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trainermanagement.scripts.TestClass">
+        <methods>
+          <include name="onSetup"/>
+          <include name="editprofile"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.trainermanagement.scripts.TestClass -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [Suite] -->

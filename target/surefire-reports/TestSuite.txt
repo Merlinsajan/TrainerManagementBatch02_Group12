@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 6, Time elapsed: 16.711 s <<< FAILURE! - in TestSuite
+com.trainermanagement.scripts.TestClass.onSetup[chrome](0)  Time elapsed: 4.538 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'DESKTOP-KSUDC9C', ip: '192.168.1.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+
+com.trainermanagement.scripts.TestClass.Signup  Time elapsed: 0.123 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'DESKTOP-KSUDC9C', ip: '192.168.1.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.trainermanagement.scripts.TestClass.Signup(TestClass.java:70)
+
+com.trainermanagement.scripts.TestClass.verifyValidLogin  Time elapsed: 1.18 s  <<< FAILURE!
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at com.trainermanagement.scripts.TestClass.verifyValidLogin(TestClass.java:54)
+
+com.trainermanagement.scripts.TestClass.verifyinValidLogin  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at com.trainermanagement.scripts.TestClass.verifyinValidLogin(TestClass.java:33)
+
+com.trainermanagement.scripts.TestClassSignUp.Signup  Time elapsed: 0.017 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'DESKTOP-KSUDC9C', ip: '192.168.1.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+	at com.trainermanagement.scripts.TestClassSignUp.Signup(TestClassSignUp.java:26)
+

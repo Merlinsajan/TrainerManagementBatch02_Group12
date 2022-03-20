@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.trainermanagement.scripts.TestClass">
+        <methods>
+          <include name="footer"/>
+          <include name="varifyInvalidSignup"/>
+          <include name="verifyAllocatePage"/>
+          <include name="verifyValidAdminLogin"/>
+          <include name="signup"/>
+          <include name="onSetup"/>
+          <include name="homepage"/>
+          <include name="editprofile"/>
+          <include name="InvalidLogin"/>
+          <include name="verifyValidLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.trainermanagement.scripts.TestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

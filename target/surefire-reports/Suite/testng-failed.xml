@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trainermanagement.scripts.TestClass">
+        <methods>
+          <include name="Signup"/>
+          <include name="onSetup"/>
+          <include name="verifyValidLogin"/>
+          <include name="tearDown"/>
+          <include name="verifyinValidLogin"/>
+        </methods>
+      </class> <!-- com.trainermanagement.scripts.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Sanity(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.trainermanagement.scripts.TestClass">
+        <methods>
+          <include name="Signup"/>
+          <include name="onSetup"/>
+          <include name="verifyValidLogin"/>
+          <include name="tearDown"/>
+          <include name="verifyinValidLogin"/>
+        </methods>
+      </class> <!-- com.trainermanagement.scripts.TestClass -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+  <test thread-count="2" parallel="tests" name="San(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.trainermanagement.scripts.TestClassSignUp">
+        <methods>
+          <include name="Signup"/>
+          <include name="onSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.trainermanagement.scripts.TestClassSignUp -->
+    </classes>
+  </test> <!-- San(failed) -->
+</suite> <!-- Failed suite [Suite] -->
